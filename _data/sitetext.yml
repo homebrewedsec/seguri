@@ -11,13 +11,12 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Fortifying Your Digital Defences
+    title: Fortifying Your Digital Defenses
     button: Tell Me More
     buttonlink: "#services"
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
     section: services
     list:
       - title: "Cloud Security"
