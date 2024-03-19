@@ -11,8 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Fortifying Your Digital Defences
     button: Tell Me More
     buttonlink: "#services"
 
@@ -21,117 +20,27 @@ en: &DEFAULT_EN
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
-
-  portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
-
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+      - title: "Cloud Security"
+        desc: "Elevate your cloud security posture with Seguri's tailored solutions. Our experts conduct thorough assessments to identify vulnerabilities and design robust defenses, ensuring the integrity and confidentiality of your cloud infrastructure. From configuration reviews to threat detection and incident response, trust Seguri to safeguard your cloud environment against evolving cyber threats."
+        icon: fasolid fa-cloud #find more at https://fontawesome.com/icons
+      - title: "Network Security"
+        desc: "Secure your network infrastructure with Seguri's comprehensive services. Through meticulous assessments and strategic planning, we fortify your network against unauthorized access, data breaches, and cyber attacks. From perimeter defenses to internal segmentation, we implement cutting-edge solutions to protect your critical assets and maintain uninterrupted business operations."
+        icon: fa-solid fa-globe
+      - title: "Identity Security"
+        desc: "Empower your organization with resilient identity security solutions from Seguri. Leveraging industry-leading technologies such as Okta, Active Directory (AD), and Entra ID, we streamline identity management processes while strengthening access controls and authentication mechanisms. Our tailored approach ensures seamless integration, enabling you to manage identities effectively across diverse platforms and environments, while minimizing security risks and enhancing regulatory compliance."
+        icon: fa-solid fa-finerprint
+        
+        #SECURITY ARCHITECTURE, secops
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "Who We Are"
+    body: "Seguri is a premier cybersecurity consulting firm dedicated to bolstering organizations with tailored security solutions across cloud, network, and identity domains. With our team of seasoned experts, we specialize in comprehensive assessments and acceleration services designed to fortify your digital defenses against evolving threats.
+
+Our mission at Seguri is to provide proactive and personalized cybersecurity solutions that empower businesses of all sizes to navigate today's digital landscape with confidence. Leveraging industry best practices and cutting-edge technologies, we go beyond traditional measures to anticipate and mitigate risks effectively. Partner with Seguri today and experience the peace of mind that comes with having a trusted cybersecurity ally by your side, allowing you to focus on driving success and growth in your organization."
     section: about
-
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -148,15 +57,13 @@ en: &DEFAULT_EN
     legal: "Privacy Policy"
     social:
       - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
+        icon: "fab fa-x-twitter"
+      - url: https://twitter.com
+        icon: "fab fa-mastodon"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
       - url: https://github.com/raviriley/agency-jekyll-theme
         icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -307,15 +214,13 @@ es: &DEFAULT_ES
     legal: "Política de Privacidad"
     social:
       - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
+        icon: "fab fa-x-twitter"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
       - url: https://github.com/raviriley/agency-jekyll-theme
         icon: "fab fa-github"
       - url: https://instagram.com
-        icon: "fab fa-instagram"
+        icon: "fa-brands fa-mastodon"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
