@@ -26,7 +26,7 @@ en: &DEFAULT_EN
         desc: "Secure your network infrastructure with Seguri's comprehensive services. Through meticulous assessments and strategic planning, we fortify your network against unauthorized access, data breaches, and cyber attacks. From perimeter defenses to internal segmentation, we implement cutting-edge solutions to protect your critical assets and maintain uninterrupted business operations."
         icon: fas globe
       - title: "Identity Security"
-        desc: "Empower your organization with resilient identity security solutions from Seguri. Leveraging industry-leading technologies such as Okta, Active Directory (AD), and Entra ID, we streamline identity management processes while strengthening access controls and authentication mechanisms. Our tailored approach ensures seamless integration, enabling you to manage identities effectively across diverse platforms and environments, while minimizing security risks and enhancing regulatory compliance."
+        desc: "Empower your organization with resilient identity security solutions from Seguri. Covering technologies such as Okta, Active Directory, and Entra ID, we streamline identity management processes while strengthening access controls and authentication mechanisms. Our tailored approach ensures seamless integration, enabling you to manage identities effectively across diverse platforms and environments, while minimizing security risks and enhancing regulatory compliance."
         icon: fas fingerprint
         
         #SECURITY ARCHITECTURE, secops
